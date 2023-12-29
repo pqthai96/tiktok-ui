@@ -1,0 +1,44 @@
+.more-choice-menu {
+ width: 224px;
+}
+
+.more-choice-items {
+ padding-bottom: 8px;
+}
+
+.more-choice-item {
+ margin-left: 0 !important;
+ width: 100%;
+ display: flex;
+ align-items: start;
+ line-height: 1.8rem;
+ 
+ &:hover {
+  background: rgba(22, 24, 35, 0.03);
+ }
+}
+
+.header {
+ position: relative;
+ height: 50px;
+ margin-top: -8px;
+ flex-shrink: 0;
+}
+
+.back-btn {
+ width: 50px;
+ height: 100%;
+ background: transparent;
+ cursor: pointer;
+}
+
+.header-title {
+ position: absolute;
+ top: 25%;
+ left: 50%;
+ transform: translateX(-50%);
+}
+
+.menu-body {
+ overflow-y: auto;
+}

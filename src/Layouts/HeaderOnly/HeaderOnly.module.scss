@@ -1,0 +1,10 @@
+.container {
+ width: var(--default-layout-width);
+ display: flex;
+ margin: var(--default-layout-header-height) auto auto auto;
+ padding: 0 var(--default-layout-horizontal-spacer);
+}
+
+.content {
+ flex: 1;
+}
